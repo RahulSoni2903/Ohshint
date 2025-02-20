@@ -1,58 +1,58 @@
-Here's a well-formatted `README.md` file for your OSINT tool, similar to the keylogger example you provided:  
+Here's your `README.md` file with a professional look, including relevant emojis and badges:  
 
 ```markdown
 ![OSINT](https://img.shields.io/badge/OSINT-Tool-red?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Research-orange?style=for-the-badge)
 
-# 🌐 OSINT Website Redirector
+# 🌐 OSINT Website Redirector  
 
-> ⚠️ **Disclaimer:** This tool is created for educational and ethical cybersecurity research purposes only. Unauthorized use is strictly prohibited. Use responsibly and with proper authorization. ⚠️  
+> ⚠️ **Disclaimer:** This tool is designed for **educational and ethical cybersecurity research purposes only**. Unauthorized use of OSINT tools is illegal and unethical. Use it responsibly! ⚠️  
 
 ## 🚀 Features  
 
-✅ Accepts only the website name as input  
-✅ Automatically redirects to the correct website  
-✅ Lightweight and fast execution  
-✅ Useful for OSINT research and investigations  
+✅ **Takes website name as input** and finds the actual URL  
+✅ **Automatically redirects** to the correct website  
+✅ **Lightweight and efficient**  
+✅ **Uses only three libraries** for simplicity: `requests`, `webbrowser`, `BeautifulSoup`  
+✅ **Ideal for OSINT research and cybersecurity investigations**  
 
 ## 📌 Installation  
+
+Ensure you have **Python 3.x** installed, then install the required dependencies:  
 
 ```sh
 # Clone the repository
 git clone https://github.com/your-username/osint-redirector.git
 cd osint-redirector
 
-# Install dependencies
-pip install -r requirements.txt
+# Install required libraries
+pip install requests beautifulsoup4
 ```
 
 ## 🛠 Usage  
+
+Run the script and enter a website name to find and visit the actual site:  
 
 ```sh
 python osint_redirector.py
 ```
 
-🔹 Enter the website name, and it will automatically redirect you to the actual website.
-
-## ⚡ Preview  
-
-```plaintext
+### 🖥️ Example:
+```
 Enter website name: example
 🔗 Redirecting to: https://www.example.com
 ```
 
 ## 📜 Legal and Ethical Usage  
 
-This tool is meant for cybersecurity students and ethical hackers to understand OSINT techniques. **Do not use this for any illegal activities.**
+This tool is meant for **ethical hackers, cybersecurity students, and OSINT researchers** to understand **open-source intelligence techniques**.  
+**🚨 Do not use this for any illegal or unauthorized activities!**  
 
-## 🤝 Contributing  
+## 🤝 Contribution  
 
-Contributions are welcome! Feel free to fork the repo and submit pull requests.
+💡 Have ideas or improvements? Feel free to **fork the repository, open issues, or submit pull requests**.  
 
 ---
 
-⭐ **If you found this tool helpful, don't forget to star this repository!** ⭐  
-```
-
-This version includes badges, proper formatting, a disclaimer, and a preview, just like the example you provided. Let me know if you need any modifications! 🚀
+⭐ **If you found this tool useful, consider giving it a star!** ⭐  
